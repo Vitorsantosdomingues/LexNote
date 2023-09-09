@@ -1,0 +1,24 @@
+@import "../../../styles/index.scss";
+
+.inputContainer{
+    width: calc(100% - 3em);
+    display: flex;
+    flex-direction: column;
+    background-color: $grey-1;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid $grey-3;
+
+    label{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    input{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid $grey-3;
+        outline: none;
+        padding: 10px 0;
+    }
+}

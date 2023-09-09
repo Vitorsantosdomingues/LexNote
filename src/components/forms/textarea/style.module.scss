@@ -1,0 +1,27 @@
+@import "../../../styles/index.scss";
+
+.textareaContainer{
+    width: calc(100% - 3em);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid $grey-3;
+    label{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    textarea{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid $grey-3;
+        outline: none;
+        padding: 10px 0;
+        font-size: 1em;
+        resize: none;
+        height: 90px;
+        transition: .8s;
+        
+    }
+}

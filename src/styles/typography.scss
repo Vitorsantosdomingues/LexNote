@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+:root{
+    --font-primary: 'Roboto', sans-serif;
+}
+
+.title{
+    font-family: var(--font-primary);
+    font-weight: 700;
+    line-height: 1.4;
+
+    &.one{
+        font-size: 2rem;
+    }
+
+    &.two{
+        font-size: 1.375rem;
+    }
+}
+
+.paragraph{
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    &.bold, strong{
+        font-weight: 600;
+    }
+
+    &.purple{
+        color: $purple-1;
+    }
+}

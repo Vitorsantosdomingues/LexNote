@@ -1,0 +1,13 @@
+@import "../../../styles/index.scss";
+
+button{
+    width: calc(100% - 3em);
+    border-radius: 8px;
+    height: 45px;
+    border: none;
+    background-color: $purple-1;
+    color: $grey-1;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+}
