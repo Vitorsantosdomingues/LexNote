@@ -1,0 +1,23 @@
+@import "../../../../styles/index.scss";
+
+.todoList{
+    width: 775px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .todoList__informations{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 25px;
+        border-radius: 50px;
+        border: 1px solid $purple-1;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+       
+    }
+}

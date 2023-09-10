@@ -1,0 +1,25 @@
+@import "../../../../../styles/index.scss";
+
+.todoCard{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 375px;
+    border: 1px solid $grey-3;
+    border-radius: 8px;
+    padding: 20px;
+    .button{
+        width: 75px;
+        background-color: $purple-1;
+        border: none;
+        color: $grey-1;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 1em;
+        cursor: pointer;
+    }
+
+    p, h1{
+        word-wrap: break-word;
+    }
+}

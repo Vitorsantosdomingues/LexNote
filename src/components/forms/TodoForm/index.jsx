@@ -5,7 +5,7 @@ import styles from "./style.module.scss";
 import { Button__1 } from "../button";
 
 
-export const TodoForm = () => {
+export const TodoForm = ({ addNote }) => {
     //Variavel que armazena o valor do input title
     const [title, setTitle] = useState("");
 
@@ -27,11 +27,12 @@ export const TodoForm = () => {
     //Função que reseta o formulário e preve evento default
     const submit = (event) => { 
         event.preventDefault();
+        addNote({ title, message })
         setTitle("");
         setTitleLength(0);
         setMessage("");
         setMessageLength(0);
-        console.log({ title, message })
+       
      }
 
     //Variavel que armazena o tamanho do input title
