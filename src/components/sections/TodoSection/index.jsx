@@ -22,7 +22,6 @@ export const TodoSection = () => {
 
     return(
         <section className={styles.todoSection}>
-            
             <TodoForm addNote={addNote} />
             <TodoList noteList={noteList} removeNote={removeNote} />
         </section>
